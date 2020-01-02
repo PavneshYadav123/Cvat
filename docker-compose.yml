@@ -53,6 +53,7 @@ services:
         TZ: "Etc/UTC"
         OPENVINO_TOOLKIT: "no"
     environment:
+      ALLOWED_HOSTS: '*'
       DJANGO_MODWSGI_EXTRA_ARGS: ""
       UI_SCHEME: http
       UI_HOST: labelytics.trantorglobal.com
