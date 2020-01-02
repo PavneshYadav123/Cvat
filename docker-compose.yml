@@ -55,7 +55,7 @@ services:
     environment:
       DJANGO_MODWSGI_EXTRA_ARGS: ""
       UI_SCHEME: http
-      UI_HOST: 192.168.8.14
+      UI_HOST: labelytics.trantorglobal.com
       UI_PORT: 7080
 
 
